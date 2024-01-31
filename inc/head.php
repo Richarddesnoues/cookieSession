@@ -1,3 +1,5 @@
+<?php session_start() ?>
+<?php require 'inc/data/products.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="assets/styles.css"/>
 </head>
 <body>
-<header>
+    <header>
     <!-- MENU ENTETE -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
